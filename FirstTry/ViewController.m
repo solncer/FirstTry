@@ -15,6 +15,10 @@
 
 @implementation ViewController
 
+- (IBAction)clicked:(id)sender {
+    [(UIButton*) sender setTitle:@"How" forState:UIControlStateNormal];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
